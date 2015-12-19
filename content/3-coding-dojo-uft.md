@@ -13,14 +13,14 @@ Linkedin: viniciusaires7
 ##3º Coding Dojo (C++) - UFT
 
 <p align="center">
-  <img src="http://dojoto.info/images/viniciusaires7/3-dojo-banner.jpg"/>
+  <img src="https://raw.githubusercontent.com/dojoto/dojoto.github.io/pelican/content/images/viniciusaires7/3-dojo-banner.jpg"/>
 </p>
 
 O 3° Coding Dojo aconteceu no dia 18/12/2015 na <a target="_blank" href="http://www.uft.edu.br">Universidade Federal do Tocantins</a> (UFT) campus Palmas, com tema na linguagem de programação <a target="_blank" href="https://pt.wikipedia.org/wiki/C%2B%2B">C++</a>.
 O evento foi organizado pela parceria entre o <a target="_blank" href="http://dojoto.info">DojoTO</a>, <a target="_blank" href="https://www.facebook.com/caccompuft">CACCOMP</a> (Centro Acadêmico de Ciência da Computação).
 
 <p align="center">
-  <img src="http://dojoto.info/images/viniciusaires7/27-03-organizacao-coding-dojo.jpg"/>
+  <img src="https://raw.githubusercontent.com/dojoto/dojoto.github.io/pelican/content/images/viniciusaires7/27-03-organizacao-coding-dojo.jpg"/>
 </p>
 
 ##Problema abordado
@@ -36,7 +36,7 @@ Descrição do problema 3n+1
 ##Participantes
 
 <p align="center">
-  <img src="http://dojoto.info/images/viniciusaires7/coding-dojo-18-12-2015.jpg"/>
+  <img src="https://raw.githubusercontent.com/dojoto/dojoto.github.io/pelican/content/images/viniciusaires7/coding-dojo-18-12-2015.jpg"/>
 </p>
 
 Para mais fotos acessem o [link](https://goo.gl/photos/RoLwwdiiWEd857Un6)
