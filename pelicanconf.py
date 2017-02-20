@@ -5,9 +5,9 @@ import os
 BASE = os.path.dirname(__file__)
 
 AUTHOR = u'DojoTO'
-AUTHOR_EMAIL = u'gravatar@dojoto.info'
+AUTHOR_EMAIL = u'gravatar@dojoto.xyz'
 SITENAME = u'CodingDojoTocantins'
-SITEURL = 'http://dojoto.info'
+SITEURL = 'http://dojoto.xyz'
 SITELOGO = '{0}/{1}'.format(SITEURL, 'images/dojo-white.png')
 MASCOTEDOJO = '{0}/{1}'.format(SITEURL, 'images/ninja-dojo.png')
 
