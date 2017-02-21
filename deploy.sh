@@ -9,7 +9,7 @@ echo -e "$VARNAME"
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     echo -e "Starting to deploy to Github Pages\n"
     if [ "$TRAVIS" == "true" ]; then
-        git config --global user.email "bot@dojoto.info"
+        git config --global user.email "bot@dojoto.xyz"
         git config --global user.name "DojoTO-Bot"
     fi
     # using token clone gh-pages branch
@@ -23,5 +23,8 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     git add --all -f .
     git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to Github Pages"
     git push -fq origin $BRANCH > /dev/null
+    curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://dojoto.xyz/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
+    curl -Is http://www.bing.com/webmaster/ping.aspx?siteMap=http://dojoto.xyz/sitemap.xml | grep "200 OK" || echo "Erro pinging Bing"
+
     echo -e "Deploy completed\n"
 fi
