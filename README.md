@@ -109,3 +109,4 @@ Quando tiver um assunto e uma data de entrega, adicione na planinha, ao finaliza
 [15]: https://github.com/pythonclub/pythonclub.github.io/fork
 [16]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+
