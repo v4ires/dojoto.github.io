@@ -12,9 +12,6 @@ notifications:
   email:
     on_success: never
     on_failure: never
-env:
-  global:
-  - secure: h1FXOiZQKZLjFGstghpo5L0D7JvQlTKAUV/TWnp3qQeDor63CE3EJoqs7xedCST7qF2Jkl9QFTtjCh23rt/9YrA6X1wTX0myREYuPHbRAjx0LD7CyWopetpU2dHbk5C56HbKLz5uaq6kjxArHnDAO32RSpwAUHT7k1u/7IuFhco=
 before_install:
 - openssl aes-256-cbc -K $encrypted_e173943ba804_key -iv $encrypted_e173943ba804_iv
   -in publish-key.enc -out publish-key -d
