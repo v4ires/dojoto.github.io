@@ -8,7 +8,11 @@ echo -e "$VARNAME"
 
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
     echo -e "Starting to deploy to Github Pages\n"
+    chmod 600 publish-key
+    eval `ssh-agent -s`
+    ssh-add publish-key
     if [ "$TRAVIS" == "true" ]; then
+#        git config --global user.email "bnafta@gmail.com"
         git config --global user.email "bot@dojoto.xyz"
         git config --global user.name "DojoTO-Bot"
     fi
